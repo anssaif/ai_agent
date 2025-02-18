@@ -13,12 +13,12 @@ const ULTRAVOX_API_KEY = process.env.ULTRAVOX_API_KEY;
 const ULTRAVOX_API_URL = 'https://api.ultravox.ai/api/calls';
 
 // Ultravox configuration
-const SYSTEM_PROMPT = 'Your name is Steve. You are receiving a phone call. Ask them their name and see how they are doing.';
+const SYSTEM_PROMPT = 'Your name is Sara. You are receiving a phone call. Ask them their name and see how they are doing.';
 
 const ULTRAVOX_CALL_CONFIG = {
     systemPrompt: SYSTEM_PROMPT,
     model: 'fixie-ai/ultravox',
-    voice: 'Mark',
+    voice: 'Jessica',
     temperature: 0.3,
     firstSpeaker: 'FIRST_SPEAKER_AGENT',
     medium: { "twilio": {} }
