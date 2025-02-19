@@ -12,6 +12,8 @@ const port = 3000;
 const ULTRAVOX_API_KEY = process.env.ULTRAVOX_API_KEY;
 const ULTRAVOX_API_URL = 'https://api.ultravox.ai/api/calls';
 
+//test env
+console.log('testing env',process.env.XX);
 // Ultravox configuration
 const SYSTEM_PROMPT = 'Your name is Sara. You are receiving a phone call. Ask them their name and see how they are doing.';
 
